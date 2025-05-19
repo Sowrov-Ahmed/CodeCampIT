@@ -38,7 +38,7 @@ const Page = () => {
   ];
 
   const contactDetails = [
-    { icon: <MdEmail />, title: 'info@dotbdsolutions.com', href: 'mailto:info@dotbdsolutions.com' },
+    { icon: <MdEmail />, title: 'codecampit@gmail.com', href: 'mailto:codecampit@gmail.com' },
     { icon: <ImPhone />, title: '+880 1725125455', href: 'tel:+8801725125455' },
     { icon: <MdLocationPin />, title: <>Kuril, <br />Dhaka-1229.</>, href: 'https://maps.app.goo.gl/CcXeTVmgMvvVvWgf9' } // Add a maps link if available
   ];
@@ -65,8 +65,8 @@ const Page = () => {
     <main className="bg-slate-100 min-h-screen py-12 sm:py-16 px-4">
       <section className="w-full max-w-6xl mx-auto">
         <div className="text-center mb-10 sm:mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold text-slate-800">Contact Us</h1>
-          <p className="text-slate-600 mt-3 sm:mt-4 text-lg sm:text-xl max-w-2xl mx-auto">
+          <h1 className="text-4xl sm:text-5xl font-bold text-slate-800  font-newAcademy ">Contact Us</h1>
+          <p className="text-slate-600 mt-3 sm:mt-4 text-lg sm:text-xl max-w-2xl mx-auto font-montserrat">
             We&apos;re here to help and answer any question you might have. We look forward to hearing from you!
           </p>
         </div>
@@ -235,7 +235,7 @@ const Page = () => {
       </section>
        {/* Add a simple footer if needed, or integrate into your site's global footer */}
       <footer className="text-center py-10 mt-12 sm:mt-16">
-        <p className="text-slate-500 text-sm">&copy; {new Date().getFullYear()} dotbdsolutions. All rights reserved.</p>
+        <p className="text-slate-500 text-sm">&copy; {new Date().getFullYear()} CodeCamp IT . All rights reserved.</p>
       </footer>
     </main>
   );

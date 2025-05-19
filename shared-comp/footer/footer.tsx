@@ -11,13 +11,6 @@ const Footer = () => {
     <div className=" w-full  uws:py-5 bg-black ">
       <div className=" text-white  xs:w-6/6 sm:w-5/6 md:w-5/6 lg:w-5/6  h-auto lg:h-[288px] uws:h-[340px] bg-black grid    md:grid-cols-2 lg:grid-cols-3 mx-auto xs:px-3 px-4 lg:px-0 pt-8 pb-8 lg:pt-0 lg:pb-0 uws:pb-8  items-center">
         <div className="">
-          {/* <Image
-            alt="logo"
-            src={logo}
-            height={63}
-            width={169}
-            className="uws:w-96"
-          /> */}
         <span className='text-xl font-newAcademy text-magenta'>CodeCamp IT</span>
           <p className="w-[306px]  leading-[16.9px] uws:leading-[24px] text-[14px] uws:text-[24px] inter mt-2">
            At<span className='font-newAcademy text-lg m-3 text-magenta'>CodeCamp IT</span>, we emphasize practical, hands-on learning, with expert mentors who provide real-world perspectives in each lesson.
@@ -63,34 +56,20 @@ const Footer = () => {
 
         <div className="  flex flex-col lg:items-end mt-4 lg:mt-0">
           <div className="lg:text-right montserat font-normal uws:text-[24px]">
-            <p className="">info@mentorsitacademy</p>
+            <p className='font-bold'>COMMUNICATION - </p>
+            <p className="">codecampit@gmail.com</p>
             <p className="">
-              2 Shahid Tazuddin Ahmed Sarani Razzak Plaza (2nd Floor).
-              <br />
-              Moghbazar, Dhaka
+              Kuril,Dhaka-1229
             </p>
             <div className="flex md:justify-end gap-3 mt-2">
               <p>Hotline:</p>
               <div>
-                01711-671230 <br />
-                01711-671231
+                01725125455
               </div>
             </div>
-            {/* <p className="montserat font-bold mt-3">OUR PARTNERS</p> */}
+         
           </div>
-          {/* <div className="flex bg-white md:w-[448px] lg:w-[410px] uws:w-[550px] h-[47px] uws:h-[60px] items-center rounded-[10px] justify-around">
-            {images2.map((params, idx) => (
-              <div key={idx} className="">
-                <Image
-                  alt="logo"
-                  src={params.img}
-                  height={20}
-                  width={63}
-                  className="uws:w-[100px]"
-                />
-              </div>
-            ))}
-          </div> */}
+          
         </div>
       </div>
     </div>
