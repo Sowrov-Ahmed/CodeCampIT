@@ -1,42 +1,55 @@
-import Image from "next/image";
-import React from "react";
 
-const FutureCareer = () => {
+
+import Link from "next/link";
+
+const EnrollmentSchedule = () => {
   return (
-    // <div className=" mt-12 mb-24   md:mt-36 lg:mt-32 lg:mb-44   uws:mt-72 w-5/6 lg:w-[986px] uws:w-[1500px]  mx-auto text-center border border-black">
-    <div className=" mt-16 mb-24   md:mt-36 lg:mt-40 lg:mb-44   uws:mt-48 w-5/6 md:w-4/6   mx-auto text-center">
-      <Image
-        alt="logo"
-        src="/images/home/brand.png"
-        width={302}
-        height={68}
-        quality={90}
-        className=" mx-auto"
-      />
+    <div className="mt-16 mb-24 md:mt-36 lg:mt-40 lg:mb-44 uws:mt-48  flex items-center justify-center p-4">
+      <div className="bg-violet-50 rounded-2xl w-full max-w-3xl p-6 shadow-md">
+        <h2 className="text-center text-xl md:text-2xl font-bold text-violet-700 mb-8 jaro">
+          Batch Schedule
+        </h2>
 
-      <div>
-        <div className="mt-4">
-          <p className="text-[16px] md:text-[24px] lg:text-[24px] uws:text-[30px] jaro -mb-4 md:-mb-5  lg:-mb-6">
-          CodeCamp IT
-          </p>
-          <p className="text-[35px] md:text-[64px] lg:text-[64px] regularBrush text-[#5C5C5C] mt-3">
-            Future Career
-          </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+          {/* Start Date */}
+          <div className="flex items-center gap-4 p-4 rounded-xl bg-green-50">
+            <div className="bg-white p-2 rounded-xl shadow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-calendar-days-icon lucide-calendar-days text-green-600 w-8 h-8"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></svg>
+            
+            </div>
+            <div>
+              <p className="text-lg font-semibold text-gray-800">Enrollment Start</p>
+              <p className="text-sm text-gray-600">September 10, 2025</p>
+            </div>
+          </div>
+
+          {/* End Date */}
+          <div className="flex items-center gap-4 p-4 rounded-xl bg-red-50">
+            <div className="bg-white p-2 rounded-xl shadow">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-calendar-days-icon lucide-calendar-days text-red-600 w-8 h-8"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></svg>
+            </div>
+            <div>
+              <p className="text-lg font-semibold text-gray-800">Enrollment End</p>
+              <p className="text-sm text-gray-600">September 24, 2025</p>
+            </div>
+          </div>
         </div>
-        <div className="text-[14px] uws:text-[30px]  inter mt-4">
-          <p>
-        <span className='font-newAcademy text-xl'>CodeCamp IT</span> is a forward-thinking edtech organization committed to empowering individuals by developing their digital skills. We provide a broad array of practical courses, such as Data Structure & Algorithm,Web Development,Research Workshop and other highly sought-after fields. Our programs are designed to meet the needs of ambitious professionals and career-focused learners, providing them with industry-relevant skills to thrive in the digital world.
 
+        {/* Course Fee */}
+       
 
-          </p>
-          <br />
-          <p>
-    At <span className='font-newAcademy text-xl'>CodeCamp IT</span>, we emphasize hands-on learning, with guidance from experienced mentors who share real-world knowledge in every class. Our goal is to transform learners into proficient professionals by creating a supportive and engaging environment that helps them succeed. Whether in virtual classrooms or interactive sessions, we ensure that each course combines foundational knowledge with practical applications, preparing students for successful careers in the ever-evolving digital industry.
-          </p>
+        {/* Button */}
+        <div className="flex justify-center">
+          <Link href='/courses'
+          
+            className="bg-magenta text-white text-lg jaro px-6 py-2 rounded-xl font-medium"
+          >
+           All Courses
+          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default FutureCareer;
+export default EnrollmentSchedule;
