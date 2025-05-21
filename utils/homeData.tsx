@@ -371,7 +371,7 @@ export const courseDetails = [
         },
         {
           details:
-            "What is Reat,component,component types, build your first component",
+            "What is React,component,component types, build your first component",
         },
         {
           details:
