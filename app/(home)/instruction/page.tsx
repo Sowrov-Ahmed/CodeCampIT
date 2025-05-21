@@ -153,14 +153,14 @@ const EnrollInstructionsBangla = () => {
         </h2>
         <p className='flex items-center gap-1 text-xl'>
           <IoCallSharp className=''/>{" "}
-          <Link href="tel:+8801234567890" className="font-semibold">
+          <Link href="tel:+8801725125455" className="font-semibold">
             +88 01725125455
           </Link>
         </p>
 
         <p className='flex items-center gap-1 text-xl '>
           <MdEmail className=''/>
-          <Link href="mailto:info@youritcenter.com" className=" font-semibold">
+          <Link href="mailto:codecampit@gmail.com" className=" font-semibold">
             codecampit@gmail.com
           </Link>
         </p>
