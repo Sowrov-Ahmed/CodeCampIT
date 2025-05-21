@@ -14,7 +14,7 @@ const ExpectationsOverview: React.FC<ExpectationsProps> = ({ expectations }) => 
   return (
     <>
       {expectations?.map((expectation: Expectation, idx: number) => (
-        <div key={idx} className="flex items-center gap-4">
+        <div key={idx} className="flex items-start gap-4">
           <div className="bg-red-600 w-4 h-4 uws:w-8 uws:h-8 text-white rounded-full flex items-center justify-center">
             <IoCheckmark />
           </div>

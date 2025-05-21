@@ -1,65 +1,163 @@
+// export const news_letter_data = [
+//   {
+//     id: 1,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 2,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 3,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 4,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 5,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 6,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 7,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 8,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 9,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 10,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 11,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+//   {
+//     id: 12,
+//     title: "Software Engineering  interviews",
+//     description: "What you should know in 2025.",
+//   },
+// ];
 export const news_letter_data = [
-    {
-        "id": 1,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 2,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 3,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 4,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 5,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 6,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 7,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 8,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 9,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 10,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 11,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-      {
-        "id": 12,
-        "title": "Software Engineering  interviews",
-        "description": "What you should know in 2025."
-      },
-  ]
+  {
+    id: 1,
+    title: "Master Next.js for Full-Stack Apps",
+    description: "Build fast, SEO-friendly web applications using Next.js with hands-on tips.",
+  },
+  {
+    id: 2,
+    title: "Why Developers Love NestJS",
+    description: "Discover the power of scalable backend architecture with NestJS and TypeScript.",
+  },
+  {
+    id: 3,
+    title: "Boost Performance with PostgreSQL",
+    description: "Learn indexing, optimization, and advanced queries to supercharge your database.",
+  },
+  {
+    id: 4,
+    title: "Ace Your Interviews with DSA Skills",
+    description: "Master key data structures and algorithms to crack FAANG-level interviews.",
+  },
+  {
+    id: 5,
+    title: "Join Our Research Workshop Series",
+    description: "Collaborate with experts and explore cutting-edge tech research in live sessions.",
+  },
+  {
+    id: 6,
+    title: "Next.js API Routes Deep Dive",
+    description: "Unlock the full potential of Next.js by building scalable API backends.",
+  },
+  {
+    id: 7,
+    title: "Build Real Projects with NestJS & PostgreSQL",
+    description: "Hands-on project ideas combining NestJS and PostgreSQL for real-world apps.",
+  },
+  {
+    id: 8,
+    title: "Video Editing for Creators & Developers",
+    description: "Level up your content creation with tools like Adobe Premiere and CapCut.",
+  },
+  {
+    id: 9,
+    title: "Top 10 PostgreSQL Mistakes to Avoid",
+    description: "Avoid performance pitfalls and write production-grade SQL from the start.",
+  },
+  {
+    id: 10,
+    title: "Visualize Algorithms with Real Animations",
+    description: "Interactive demos to help you truly understand how algorithms work.",
+  },
+  {
+    id: 11,
+    title: "Conduct Effective Tech Research",
+    description: "Learn methodologies for publishing, collaborating, and presenting research papers.",
+  },
+  {
+    id: 12,
+    title: "Edit Like a Pro: Video for Tech Demos",
+    description: "Create clean, engaging product and code demos with smart video editing techniques.",
+  },
+
+
+  {
+    id: 13,
+    title: "AI Trends to Watch",
+    description: "Explore how generative AI is changing the tech landscape in 2025.",
+  },
+  {
+    id: 14,
+    title: "Mastering Web3 Development",
+    description: "Everything you need to start building decentralized apps (dApps).",
+  },
+  {
+    id: 15,
+    title: "Frontend Frameworks Comparison",
+    description: "React, Vue, or Svelte — which one dominates in 2025?",
+  },
+  {
+    id: 16,
+    title: "Cloud Certifications Guide",
+    description: "Top cloud certifications to boost your career this year.",
+  },
+  
+  {
+    id: 17,
+    title: "Learn TypeScript Fast",
+    description: "Why TypeScript is now essential for modern web developers.",
+  },
+
+  {
+    id: 18,
+    title: "UI/UX Design Principles",
+    description: "Improve your app's user experience with these modern design tips.",
+  },
+
+
+];
 
 export const courses = [
   {
@@ -105,8 +203,8 @@ export const courseDetails = [
     xdesc: "Data Structure & Algorithom",
     xprice: 6500,
     xlongdesc: "",
-     time:" Saturday  & Friday, 9:00 PM - 10:00 PM",
-    duration:"7-8 weeks",
+    time: " Saturday  & Friday, 9:00 PM - 10:00 PM",
+    duration: "8-9 weeks",
     xcat: "Security",
     ximage: "/images/home/courses/algorithom.png",
     learningOutCome: {
@@ -255,8 +353,8 @@ export const courseDetails = [
     xitemcode: "CSE105",
     xdesc: "Advanced Web development",
     xprice: 6000,
-    time:" Saturday ,Monday & Wednesday, 9:00 PM - 10:00 PM",
-    duration:"10-12 weeks",
+    time: " Saturday ,Monday & Wednesday, 9:00 PM - 10:00 PM",
+    duration: "12-13 weeks",
     xlongdesc: "",
     xcat: "Security",
     ximage: "/images/home/courses/web.jpg",
@@ -304,7 +402,7 @@ export const courseDetails = [
         {
           details: "Active route, Loading Spinner, useLocation, useNavigation",
         },
-         {
+        {
           details: "Tailwind CSS",
         },
 
@@ -312,7 +410,7 @@ export const courseDetails = [
           details: (
             <>
               <span className="text-2xl text-red-600 font-bold">
-                Next JS Core Concepts & Basic TypeScript
+                Next JS & Basic TypeScript
               </span>
             </>
           ),
@@ -338,25 +436,24 @@ export const courseDetails = [
           details:
             "Handle global errors with built-in error page,loading,not-found page",
         },
-          {
-          details:
-            "Basic Types,Arrays and Tuples",
-        },
-          {
-          details:
-            "Objects & Type Aliases,Functions",
+        {
+          details:" Data Fetching and Caching"
         },
         {
-          details:
-            "Union & Intersection Types,Interfaces,Enums",
+          details: "Basic Types,Arrays and Tuples",
         },
-      
+        {
+          details: "Objects & Type Aliases,Functions",
+        },
+        {
+          details: "Union & Intersection Types,Interfaces,Types,Enums",
+        },
 
         {
           details: (
             <>
               <span className="text-2xl text-red-600 font-bold">
-                Nest JS Core Concepts
+                Nest JS  
               </span>
             </>
           ),
@@ -430,6 +527,19 @@ export const courseDetails = [
       ],
     },
     expectations: [
+      {
+        title:
+          "Learn Next.js to create fast, SEO-friendly web apps with server-side rendering,to build dynamic and interactive user interfaces.",
+      },
+      {
+        title:
+          "Use TypeScript to write reliable, scalable, and type-safe code.",
+      },
+      {
+        title:
+          "Build real-world projects with modern tools, routing, APIs, and optimization.",
+      },
+      { title: "Build modern UIs with Tailwind CSS" },
       { title: "Become confident in building scalable backend systems" },
       { title: "Hands-on knowledge of NestJS and modern backend architecture" },
       {
@@ -443,12 +553,12 @@ export const courseDetails = [
       },
     ],
     courseFAQ: [
-       {
+      {
         question: " What are the real-world benefits of using Next.js?",
         answer:
           "Next.js makes apps faster, SEO-friendly, scalable, and easier to deploy. Learning it prepares developers to work on enterprise-level, production-ready applications.",
       },
-       {
+      {
         question: "How future-proof is Next.js?",
         answer:
           "Next.js is maintained by Vercel, a leading company in modern web infrastructure. It’s constantly evolving with support for Edge Functions, Server Components, and streaming—features shaping the future of web development.",
@@ -477,8 +587,8 @@ export const courseDetails = [
     xprice: 10000,
     xlongdesc: "",
     xcat: "Data Science",
-     time:" Saturday  & Friday, 10:30 PM - 11:30 PM",
-    duration:"7-8 weeks",
+    time: " Saturday  & Friday, 10:30 PM - 11:30 PM",
+    duration: "8-9 weeks",
     ximage: "/images/home/courses/researchWorkshop.jpg",
     learningOutCome: {
       whatYouLearn: [
@@ -545,8 +655,8 @@ export const courseDetails = [
     xdesc: "Video Editing",
     xprice: 4000,
     xlongdesc: "",
-     time:" Saturday ,Monday & Wednesday, 9:00 PM - 10:00 PM",
-    duration:"10-12 weeks",
+    time: " Saturday ,Monday & Wednesday, 9:00 PM - 10:00 PM",
+    duration: "12-13 weeks",
     xcat: "video editing",
     ximage: "/images/home/courses/videoEditing.jpg",
     learningOutCome: {

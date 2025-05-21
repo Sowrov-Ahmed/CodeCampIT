@@ -6,7 +6,7 @@ import good_quality from '@/public/images/home/good_quality.png'
 
 const  data = [
     {id:1,title:(<>INDUSTRY EXPERT <br/>MENTOR</>),img:guarantee,color:'#505050'},
-    {id:2,title:(<>LIVE <br/>SUPPORT</>),img:record,color:'#ED1C24'},
+    {id:2,title:(<>LIVE <br/>CLASS</>),img:record,color:'#ED1C24'},
     {id:3,title:(<>QUALITY <br/>TRAINING</>),img:good_quality,color:'#505050'},
 ]
 
