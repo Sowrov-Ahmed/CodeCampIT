@@ -91,7 +91,10 @@ export default  function CourseDetailPage() {
                     <span className="text-red-600">Class duration :</span> {course?.duration}
                   </p>
                 </div>
-
+               
+                <p className="bg-black px-4 py-2 w-fit montserat font-semibold text-[16px] md:text-[20px] rounded-tr-[12px] rounded-br-[12px] uws:text-[30px] mb-2">
+                  Live Class & Recorded Video
+                </p>
                 <p className="bg-black px-4 py-2 w-fit montserat font-semibold text-[16px] md:text-[20px] rounded-tr-[12px] rounded-br-[12px] uws:text-[30px]">
                   COURSE DETAILS
                 </p>

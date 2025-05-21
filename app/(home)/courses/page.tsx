@@ -27,7 +27,7 @@ const page = async () => {
         <div className="absolute inset-0 bg-black bg-opacity-70 z-10" />
       </div>
       <div className="absolute  text-[35px] md:text-[60px] lg:text-[60px] regularBrush text-center w-full -mt-32 md:-mt-56 lg:-mt-72 uws:-mt-96 text-white">
-        <p className="">Who We Offer</p>
+        <p className="">Our Offers</p>
       </div>
 
       <div className="bg-gray-200/50 px-3 py-6 md:px-8 md:py-8">

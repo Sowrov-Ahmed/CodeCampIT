@@ -33,7 +33,7 @@ const mentors: Mentor[] = [
   {
     xteacher: 102,
     xteachername: "Sowrov Ahmed",
-    xexpartarea: "Full Stack Web Development",
+    xexpartarea: "Advanced Web Development",
     xsortindex: 2,
 
     edu: "CSE,AIUB",
@@ -42,7 +42,7 @@ const mentors: Mentor[] = [
   {
     xteacher: 103,
     xteachername: "MD.Shaiful Islam",
-    xexpartarea: "Full Stack Web Development",
+    xexpartarea: "Advanced Web Development",
     xsortindex: 3,
     edu: "CSE,AIUB",
     works: "Software Engineer at DBSL",
@@ -50,7 +50,7 @@ const mentors: Mentor[] = [
   {
     xteacher: 104,
     xteachername: "Nazrul Islam",
-    xexpartarea: "Digital Electronics & Logic Design",
+    xexpartarea: "Power Systems Engineer",
     xsortindex: 4,
     edu: "EEE,AIUB",
     works: "Assistant Engineer at Dana Group",
@@ -80,7 +80,7 @@ const page = async () => {
         <div className="absolute inset-0 bg-black bg-opacity-70 z-10" />
       </div>
       <div className="absolute  text-[35px] md:text-[60px] lg:text-[60px] regularBrush text-center w-full -mt-32 md:-mt-60 lg:-mt-72 text-white">
-        <p className="">mentors</p>
+        <p className="">Our mentors</p>
       </div>
       <div className=" w-9/12 mx-auto mt-12 md:mt-20 lg:mt-28 uws:mt-40 grid xs:grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg: grid-cols-4 exl:grid-cols-4 uws:grid-cols-4">
         {mentors?.map((mentor, idx: number) => (
