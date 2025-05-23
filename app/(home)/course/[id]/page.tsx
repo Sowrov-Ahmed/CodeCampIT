@@ -56,13 +56,13 @@ export default  function CourseDetailPage() {
                     />
                     <Link
                       href={
-                        course.xdesc.toLowerCase() === "video editing"
+                        course.xdesc.toLowerCase() === "video editing" ||  course.xdesc.toLowerCase() === "c++"
                           ? "/courses"
                           : "/instruction"
                       }
                     >
                       <Button className=" bg-magenta hover:bg-violet mx-auto w-full mt-4 focus:outline-none focus:ring-0">
-                        {course.xdesc.toLowerCase() === "video editing"
+                        {course.xdesc.toLowerCase() === "video editing" || course.xdesc.toLowerCase() === "c++"
                           ? "Not Available"
                           : "Enroll Now"}
                       </Button>
