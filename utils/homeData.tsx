@@ -352,7 +352,7 @@ export const courseDetails = [
       },
       {
         question: "How long is the course?",
-        answer: "The course will be continue 6-8 weeks ",
+        answer: "The course will be continue 8-9 weeks ",
       },
     ],
   },
@@ -584,7 +584,7 @@ export const courseDetails = [
       {
         question: "How long is the course?",
         answer:
-          "The course runs for approximately 8-10 weeks with weekly assignments and projects.",
+          "The course runs for approximately 12-13 weeks with weekly assignments and projects.",
       },
     ],
   },
@@ -681,7 +681,7 @@ export const courseDetails = [
     xprice: 5000,
     xlongdesc: "",
     time: " Saturday ,Monday & Wednesday, 9:00 PM - 10:00 PM",
-    duration: "7-8 weeks",
+    duration: "8-9 weeks",
     xcat: "C++",
     ximage: "/images/home/courses/c++.jpg",
     learningOutCome: {
