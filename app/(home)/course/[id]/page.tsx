@@ -43,7 +43,7 @@ export default  function CourseDetailPage() {
 
         <div className="w-11/12 mx-auto md:w-5/6 py-12 ">
           <div className="flex lg:flex-row exl:flex-row uws:flex-row md:flex-col sm:flex-col xs:flex-col gap-8 justify-center items-end -mt-36 lg:-mt-48">
-            <div className="w-[250px] xs:w-full md:w-[300px] lg:w-[450px] lg:h-[600px] uws:w-[800px] uws:h-[970px] h-auto pb-8 border-b-4 border-red-600 mx-auto z-30">
+            <div className="w-[250px] xs:w-full md:w-[300px] lg:w-[450px] lg:h-[600px] uws:w-[800px] uws:h-[970px] h-auto pb-8 border-b-4 border-magenta mx-auto z-30">
               <div className="bg-black border-2 border-white rounded-[18px] px-4 py-8">
                 {course?.ximage ? (
                   <div className="h-auto  lg:h-[500px] uws:h-[850px] ">
@@ -61,7 +61,7 @@ export default  function CourseDetailPage() {
                           : "/instruction"
                       }
                     >
-                      <Button className=" bg-red-600 mx-auto w-full mt-4 focus:outline-none focus:ring-0">
+                      <Button className=" bg-magenta hover:bg-violet mx-auto w-full mt-4 focus:outline-none focus:ring-0">
                         {course.xdesc.toLowerCase() === "video editing"
                           ? "Not Available"
                           : "Enroll Now"}

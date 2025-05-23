@@ -4,7 +4,7 @@ import facebook from "@/public/images/footer/facebook.png";
 import linkedin from "@/public/images/footer/linkedin.png";
 import youtube from "@/public/images/footer/youtube.png";
 import Link from "next/link";
-const images1 = [{ img: facebook,link:'https://www.facebook.com/profile.php?id=61576552769114' }, { img: linkedin,link:'#' }, { img: youtube,link:'#' }];
+const images1 = [{ img: facebook,link:'https://www.facebook.com/profile.php?id=61576552769114' }, { img: linkedin,link:'https://www.linkedin.com/company/codecamp-it/' }, { img: youtube,link:'#' }];
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="flex mt-5 gap-4">
             {images1.map((params, idx) => (
               <div key={idx}>
-                <Link href={params?.link}>
+                <Link href={params?.link} target="_blank">
                   <Image
                     alt="logo"
                     src={params.img}

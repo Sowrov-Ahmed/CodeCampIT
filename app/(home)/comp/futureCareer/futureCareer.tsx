@@ -35,14 +35,20 @@ const EnrollmentSchedule = () => {
           </div>
         </div>
 
-        {/* Course Fee */}
+    <div className="p-4 rounded-xl hover:bg-magenta bg-violet text-center text-white mb-4">
+         
+            <div>
+              <p className="text-xl font-semibold jaro">Class Start</p>
+              <p className="text-lg   font-semibold ">July 01, 2025</p>
+            </div>
+          </div>
        
 
         {/* Button */}
         <div className="flex justify-center">
           <Link href='/courses'
           
-            className="bg-magenta text-white text-lg jaro px-6 py-2 rounded-xl font-medium"
+            className="hover:bg-magenta bg-violet text-white text-lg jaro px-6 py-2 rounded-xl font-medium"
           >
            All Courses
           </Link>

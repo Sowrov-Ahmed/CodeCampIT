@@ -32,8 +32,8 @@ const Page = () => {
   };
 
   const socialLinks = [
-    { icon: <FaFacebookF />, href: "#", label: "Facebook" }, // Added href and label for accessibility/functionality
-    { icon: <FaLinkedinIn />, href: "#", label: "LinkedIn" },
+    { icon: <FaFacebookF />, href: "https://www.facebook.com/messages/t/661901847005593", label: "Facebook" }, // Added href and label for accessibility/functionality
+    { icon: <FaLinkedinIn />, href: "https://www.linkedin.com/company/codecamp-it/", label: "LinkedIn" },
     { icon: <FaWhatsapp />, href: "https://wa.me/8801725125455", label: "WhatsApp" }
   ];
 
