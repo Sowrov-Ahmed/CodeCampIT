@@ -25,7 +25,7 @@ const mentors: Mentor[] = [
     works: (
       <>
         <span>
-          RA @QCRI - CODE GEN & RAG <br /> Former RA@ AIUB - FL & DS
+          RA @QCRI - CODE GEN & RAG <br /> Former RA@ AIUB - FL & DS  <br/> Competitive Programmer
         </span>
       </>
     ),
@@ -62,6 +62,14 @@ const mentors: Mentor[] = [
     xsortindex: 4,
     edu: "CSE,AIUB",
     works: "Works at Digital Marketplace",
+  },
+    {
+    xteacher: 106,
+    xteachername: "Md.Adnan",
+    xexpartarea: "C++ & DSA",
+    xsortindex: 4,
+    edu: "CSE,AIUB",
+    works: "Competitive Programmer",
   },
 ];
 

@@ -194,6 +194,14 @@ export const courses = [
     xstdprice: "7000",
     xmrp: 4000,
   },
+  {
+    id: 5,
+    xitemcode: "CSE104",
+    xdesc: "C++",
+    ximage: "/images/home/courses/c++.jpg",
+    xstdprice: "8000",
+    xmrp: 5000,
+  },
 ];
 
 export const courseDetails = [
@@ -659,6 +667,23 @@ export const courseDetails = [
     duration: "12-13 weeks",
     xcat: "video editing",
     ximage: "/images/home/courses/videoEditing.jpg",
+    learningOutCome: {
+      whatYouLearn: [],
+      requirements: [],
+    },
+    expectations: [],
+    courseFAQ: [],
+  },
+   {
+    xitemid: 5,
+    xitemcode: "CSE104",
+    xdesc: "C++",
+    xprice: 5000,
+    xlongdesc: "",
+    time: " Saturday ,Monday & Wednesday, 9:00 PM - 10:00 PM",
+    duration: "7-8 weeks",
+    xcat: "C++",
+    ximage: "/images/home/courses/c++.jpg",
     learningOutCome: {
       whatYouLearn: [],
       requirements: [],
