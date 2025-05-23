@@ -33,7 +33,7 @@ const page = async () => {
       <div className="bg-gray-200/50 px-3 py-6 md:px-8 md:py-8">
         <div className="max-w-5xl mx-auto">
           <div className="text-black text-left mb-6">
-            <p className="md:text-[36px] lg:text-[48px] uws:text-[56px] montserrat text-center">
+            <p className="md:text-[36px] lg:text-[48px] uws:text-[56px] jaro text-center">
               Courses{" "}
               <span className="text-[10.45px] uws:text-[17px]">We Offer</span>
             </p>

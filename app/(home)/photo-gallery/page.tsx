@@ -73,7 +73,7 @@ useEffect(() => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-[#ededed]  mx-auto w-11/12">
         
-        <p className="text-[35px] md:text-[60px] lg:text-[60px] regularBrush mb-9 mt-5">Photo Gallery</p>
+        <p className="text-magenta text-[35px] md:text-[60px] lg:text-[60px] regularBrush mb-9 mt-5">Photo Gallery</p>
       
     
       <div className="w-full  overflow-hidden relative">
@@ -111,7 +111,7 @@ useEffect(() => {
 
 {isModalOpen && (
   <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
-    <div className="relative flex flex-col items-center w-full h-full justify-center bg-gray-500 py-6 ">
+    <div className="relative flex flex-col items-center w-full h-full justify-center bg-gray-500 bg-opacity-70 py-6 ">
       
       <button
         onClick={closeModal}
