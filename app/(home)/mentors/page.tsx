@@ -101,7 +101,7 @@ const page = async () => {
           >
             <div
               className={` ${
-                mentor?.ximage ? "bg-red-600" : "bg-zinc-100/90 shadow-sm"
+                mentor?.ximage ? "bg-magenta" : "bg-zinc-100/90 shadow-sm"
               }
                 relative  rounded-full w-24 h-24 sm:w-28 sm:h-28 md:h-32 md:w-32 lg:w-60 lg:h-60 uws:h-96 uws:w-96 flex justify-center items-center`}
             >
@@ -116,7 +116,7 @@ const page = async () => {
                   />
                 ) : (
                 
-                  <FcManager className=" bg-red-600 rounded-full object-cover w-full h-full " />
+                  <FcManager className=" bg-magenta rounded-full object-cover w-full h-full " />
                 )}
               </div>
             </div>

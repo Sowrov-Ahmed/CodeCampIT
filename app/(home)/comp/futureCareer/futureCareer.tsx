@@ -19,7 +19,7 @@ const EnrollmentSchedule = () => {
             </div>
             <div>
               <p className="text-lg font-semibold text-gray-800">Enrollment Start</p>
-              <p className="text-md  text-gray-800 font-semibold">May 25, 2025</p>
+              <p className="text-md  text-gray-800 font-semibold">June 15, 2025</p>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ const EnrollmentSchedule = () => {
             </div>
             <div>
               <p className="text-lg font-semibold text-gray-800">Enrollment End</p>
-              <p className="text-md  text-gray-800 font-semibold">June 25, 2025</p>
+              <p className="text-md  text-gray-800 font-semibold">July 25, 2025</p>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ const EnrollmentSchedule = () => {
          
             <div>
               <p className="text-xl font-semibold jaro">Class Start</p>
-              <p className="text-lg   font-semibold ">July 01, 2025</p>
+              <p className="text-lg   font-semibold ">August 01, 2025</p>
             </div>
           </div>
        

@@ -220,7 +220,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Basic Data Structures
               </span>
             </>
@@ -249,7 +249,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Basic Algorithms
               </span>
             </>
@@ -274,7 +274,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Early Intermediate Topics
               </span>
             </>
@@ -307,7 +307,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Problem-Solving Techniques
               </span>
             </>
@@ -371,7 +371,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Basic React & Tailwind CSS
               </span>
             </>
@@ -417,7 +417,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Next JS & Basic TypeScript
               </span>
             </>
@@ -460,7 +460,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Nest JS  
               </span>
             </>
@@ -481,7 +481,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Database Integration
               </span>
             </>
@@ -498,7 +498,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Authentication & Security
               </span>
             </>
@@ -513,7 +513,7 @@ export const courseDetails = [
         {
           details: (
             <>
-              <span className="text-2xl text-red-600 font-bold">
+              <span className="text-2xl  font-bold">
                 Advanced Features
               </span>
             </>

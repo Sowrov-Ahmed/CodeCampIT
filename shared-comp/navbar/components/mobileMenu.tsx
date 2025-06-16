@@ -131,7 +131,7 @@ const MobileMenu = ({ courses }: any) => {
                     handleColorChange("ourMission");
                   }}
                 >
-                  Photo gallery
+                  Photos
                 </Link>
               </div>
             )}

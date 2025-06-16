@@ -99,10 +99,10 @@ const CourseCarousel = ({
 
 
   return (
-    <div className=" mt-16 h-[300px] md:h-[600px] lg:h-[700px]  uws:h-[950px] flex justify-center px-8 bg-black">
+    <div className=" mt-16 h-[300px] md:h-[600px] lg:h-[700px]  uws:h-[950px] flex justify-center px-8 bg-violet">
       <div className="flex flex-row md:flex-row lg:flex-row items-end absolute -mt-6 lg:-mt-10 md:px-4 ">
-        <div className="border-b-4 border-b-[#DA0041] w-36 sm:w-44  mx-auto md:w-[250px] md:h-[530px]  lg:w-[302px] h-[300px] lg:h-[580px] uws:w-[600px] uws:h-[850px] ">
-          <div className=" md:w-[250px] md:h-[500px] lg:w-[302px] h-[280px] lg:h-[529px] border-2 border-white p-3 bg-black rounded-[13px] uws:w-[600px] uws:h-[800px] ">
+        <div className="border-b-4 border-magenta w-36 sm:w-44  mx-auto md:w-[250px] md:h-[530px]  lg:w-[302px] h-[300px] lg:h-[580px] uws:w-[600px] uws:h-[850px] ">
+          <div className=" md:w-[250px] md:h-[500px] lg:w-[302px] h-[280px] lg:h-[529px] border-2 border-magenta p-3 bg-black rounded-[13px] uws:w-[600px] uws:h-[800px] ">
             {courses && courses?.length != 0 && (
               <Link
                 // href={`/course/${courses?.[selectIndex]?.id}`}
@@ -130,7 +130,7 @@ const CourseCarousel = ({
                       className="w-full h-full rounded-lg"
                     />
                   )}
-                  <div className="absolute bottom-0 left-0 right-0 xs:h-24 sm:h-20 md:h-48 lg:h-36 uws:h-56  bg-black blur opacity-60 border border-red-600"></div>
+                  <div className="absolute bottom-0 left-0 right-0 xs:h-24 sm:h-20 md:h-48 lg:h-36 uws:h-56  bg-black blur opacity-60 border border-magenta"></div>
                 </div>
 
                 <div className="text-white  md:mt-4 lg:mt-4 flex flex-col justify-between h-[90px] md:h-36 lg:h-44">
@@ -142,7 +142,7 @@ const CourseCarousel = ({
                       ? courses?.[selectIndex]?.xdesc.slice(0, 28) + " ..."
                       : courses?.[selectIndex]?.xdesc}
                   </p>
-                     <p className="text-[10px]  mx:text-[16px] lg:text-[16px] uws:text-[20px] leading-none montserrat line-through decoration-red-600 text-white flex md:mt-0 mt-1">
+                     <p className="text-[10px]  mx:text-[16px] lg:text-[16px] uws:text-[20px] leading-none montserrat line-through decoration-magenta text-white flex md:mt-0 mt-1 opacity-40 pointer-events-none select-none">
                          <svg
                               stroke="currentColor"
                               fill="none"
@@ -180,7 +180,7 @@ const CourseCarousel = ({
                             </svg>
                 {courses?.[selectIndex]?.xmrp}
               </p>
-                  <button className="lg:w-[262px] h-[40px] uws:h-[60px] uws:text-[30px] rounded-[6px]  bg-[#ED1C24]  jaro w-full">
+                  <button className="lg:w-[262px] h-[40px] uws:h-[60px] uws:text-[30px] rounded-[6px]  bg-magenta  jaro w-full">
                     Course Details
                   </button>
                 </div>
@@ -203,13 +203,13 @@ const CourseCarousel = ({
             <div className="flex items-center mb-6 space-x-4 px-4 md:px-3 lg:px-0">
               <button
                 onClick={() => handleSlider("previous")}
-                className="bg-red-600 text-white p-2 rounded-full"
+                className="bg-magenta text-white p-2 rounded-full"
               >
                 <FaArrowLeft className="text-black uws:text-[60px]" />
               </button>
               <button
                 onClick={() => handleSlider("next")}
-                className="bg-red-600 text-white p-2 rounded-full"
+                className="bg-magenta text-white p-2 rounded-full"
               >
                 <FaArrowRight className="text-black uws:text-[60px]" />
               </button>
