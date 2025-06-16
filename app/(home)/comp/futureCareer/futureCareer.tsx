@@ -4,8 +4,9 @@ import Link from "next/link";
 
 const EnrollmentSchedule = () => {
   return (
-    <div className="mt-16 mb-24 md:mt-36 lg:mt-40 lg:mb-44 uws:mt-48  flex items-center justify-center p-4">
-      <div className="bg-violet-50 rounded-2xl w-full max-w-3xl p-6 shadow-md">
+    <div className="mt-80 mb-16 md:mt-36 lg:mt-40 lg:mb-44 uws:mt-48 flex items-center justify-center p-4">
+     
+      <div className="bg-violet-50 rounded-2xl w-full max-w-3xl p-6 shadow-md ">
         <h2 className="text-center text-xl md:text-2xl font-bold text-violet-700 mb-8 jaro">
           Batch Schedule
         </h2>
