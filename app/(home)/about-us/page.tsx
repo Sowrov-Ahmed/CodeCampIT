@@ -4,26 +4,26 @@ import Image from "next/image";
 import FutureCareer from "../comp/futureCareer/futureCareer";
 import WhyUs from "../comp/wyUs/whyUs";
 
-const desc = [
-  {
-    title: "Our Vision",
-    slug: "vision",
-    desc: "To position Bangladesh as a leading nation in the global smart labor market by equipping its vast educated population with the skills needed to compete effectively in the IT sector.",
-    list: [],
-  },
-  {
-    title: "Our Mission",
-    slug: "mission",
-    desc: "",
-    list: [
-      " Organizing affordable IT training programs nationwide, accessible through both online and offline platforms.",
-      "Providing essential academic support to help students gain expertise in their chosen fields.",
-      "Offering dedicated career guidance and assistance to help learners build a strong professional future after completing their courses.",
-      "Launching focused efforts to promote IT education and career awareness in disadvantaged and remote communities.",
-      "Carrying out strategic initiatives to develop skilled professionals for both local and global job markets, while also encouraging entrepreneurship in the IT sector.",
-    ],
-  },
-];
+// const desc = [
+//   {
+//     title: "Our Vision",
+//     slug: "vision",
+//     desc: "To position Bangladesh as a leading nation in the global smart labor market by equipping its vast educated population with the skills needed to compete effectively in the IT sector.",
+//     list: [],
+//   },
+//   {
+//     title: "Our Mission",
+//     slug: "mission",
+//     desc: "",
+//     list: [
+//       " Organizing affordable IT training programs nationwide, accessible through both online and offline platforms.",
+//       "Providing essential academic support to help students gain expertise in their chosen fields.",
+//       "Offering dedicated career guidance and assistance to help learners build a strong professional future after completing their courses.",
+//       "Launching focused efforts to promote IT education and career awareness in disadvantaged and remote communities.",
+//       "Carrying out strategic initiatives to develop skilled professionals for both local and global job markets, while also encouraging entrepreneurship in the IT sector.",
+//     ],
+//   },
+// ];
 
 const page = () => {
   return (
@@ -49,7 +49,7 @@ const page = () => {
         <FutureCareer />
       </div>
 
-      <div className="-mt-16 md:-mt-9 lg:-mt-28 exl:-mt-24 uws:-mt-28 inter text-black w-5/6 md:w-4/6  mx-auto">
+      {/* <div className="-mt-16 md:-mt-9 lg:-mt-28 exl:-mt-24 uws:-mt-28 inter text-black w-5/6 md:w-4/6  mx-auto">
         <div className="text-center">
           {desc?.map((params, idx) => (
             <div key={params.slug}>
@@ -77,7 +77,7 @@ const page = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -120,7 +120,7 @@ const Menu = ({ courses }: any) => {
                 handleColorChange("ourMission");
               }}
             >
-              Photo gallery
+               Photos
             </Link>
           </div>
         )}

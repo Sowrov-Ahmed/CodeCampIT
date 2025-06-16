@@ -29,7 +29,7 @@ export default  function CourseDetailPage() {
 
   return (
     <div className="mb-10 sm:mb-10 md:mb-20 lg:mb-0 exl:mb-16 uws:mb-28">
-      <div className="relative bg-black ">
+      <div className="relative bg-slate-200/50 ">
         <div className="relative w-full h-[240px] md:h-[453px] lg:h-[453px] uws:h-[700px] z-10 md:-mt-0 -mt-2 ">
           <Image
             alt="home"
@@ -40,11 +40,14 @@ export default  function CourseDetailPage() {
           />
           <div className="absolute inset-0 bg-black bg-opacity-70" />
         </div>
+        <div className="absolute  text-[35px] md:text-[60px] lg:text-[60px] regularBrush text-center w-full -mt-48 md:-mt-72 lg:-mt-72 text-white z-50">
+        <p className="font-newAcademy lg:leading-5 md:leading-8 leading-5">{course?.xdesc}</p>
+      </div>
 
         <div className="w-11/12 mx-auto md:w-5/6 py-12 ">
           <div className="flex lg:flex-row exl:flex-row uws:flex-row md:flex-col sm:flex-col xs:flex-col gap-8 justify-center items-end -mt-36 lg:-mt-48">
             <div className="w-[250px] xs:w-full md:w-[300px] lg:w-[450px] lg:h-[600px] uws:w-[800px] uws:h-[970px] h-auto pb-8 border-b-4 border-magenta mx-auto z-30">
-              <div className="bg-black border-2 border-white rounded-[18px] px-4 py-8">
+              <div className="bg-black border-2 border-magenta rounded-[18px] px-4 py-8">
                 {course?.ximage ? (
                   <div className="h-auto  lg:h-[500px] uws:h-[850px] ">
                     <Image
@@ -80,7 +83,7 @@ export default  function CourseDetailPage() {
               </div>
             </div>
 
-            <div className="bg-red-600 text-white w-full md:w-full h-auto py-6 flex flex-col lg:flex-row justify-between items-end rounded-[18px]">
+            <div className="bg-magenta text-white w-full md:w-full h-auto py-6 flex flex-col lg:flex-row justify-between items-end rounded-[18px]">
               <div className="w-full ">
                 <div className="bg-black px-4 py-2 w-fit montserat font-semibold  rounded-tr-[12px] rounded-br-[12px] uws:text-[30px] mb-2">
                   <p>
@@ -122,10 +125,10 @@ export default  function CourseDetailPage() {
           <div className="bg-white py-6 flex flex-col items-start rounded-[18px] mt-8">
             <div className="w-11/12 mx-auto">
               <div className="flex items-center gap-4">
-                <p className="jaro text-[24px] md:text-[32px] uws:text-[60px]">
+                <p className="jaro text-[24px] md:text-[32px] uws:text-[60px] text-magenta">
                   What to Expect
                 </p>
-                <h1 className="border-[1px] flex-grow border-black"></h1>
+                <h1 className="border-[1px] flex-grow border-magenta"></h1>
               </div>
               <div className="mt-4 text-black text-[14px] uws:text-[28px] montserat font-semibold">
                 {course?.expectations && (
@@ -143,7 +146,7 @@ export default  function CourseDetailPage() {
 
           <div className="bg-white py-8 rounded-[18px] mt-8">
             <div className="w-11/12 mx-auto">
-              <p className="jaro text-[24px] md:text-[32px] text-red-600 uws:text-[60px]">
+              <p className="jaro text-[24px] md:text-[32px] text-magenta uws:text-[60px]">
                 FREQUENTLY ASKED QUESTIONS
               </p>
               {course?.courseFAQ && <CourseFaq courseFAQ={course.courseFAQ} />}
