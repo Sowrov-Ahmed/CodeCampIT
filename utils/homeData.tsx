@@ -163,8 +163,8 @@ export const courses = [
   {
     id: 1,
     xitemcode: "DB103",
-    xdesc: "Data Structure & Algorithom",
-    ximage: "/images/home/courses/algorithom.png",
+    xdesc: "Data Structure & Algorithm",
+    ximage: "/images/home/courses/algorithm.png",
     xstdprice: "10000",
     xmrp: 6500,
   },
@@ -208,13 +208,13 @@ export const courseDetails = [
   {
     xitemid: 1,
     xitemcode: "CSE105",
-    xdesc: "Data Structure & Algorithom",
+    xdesc: "Data Structure & Algorithm",
     xprice: 6500,
     xlongdesc: "",
     time: " Saturday  & Friday, 9:00 PM - 10:00 PM",
     duration: "8-9 weeks",
     xcat: "Security",
-    ximage: "/images/home/courses/algorithom.png",
+    ximage: "/images/home/courses/algorithm.png",
     learningOutCome: {
       whatYouLearn: [
         {
