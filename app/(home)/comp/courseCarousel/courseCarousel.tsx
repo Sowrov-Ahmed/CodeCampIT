@@ -91,9 +91,9 @@ const CourseCarousel = ({
   const smallDisplayedCourse = courses.slice(currentIndex, currentIndex + 1);
 
   const handleCourse = async(course: Course) => {
-    console.log('++++++++++++++++++++++++++++++++++++++',course,typeof course.id)
+ 
     await router.push(`/course/${course.id}`)
-    console.log('++++++++++++++++++++++++++++++++++++++',course)
+  
   };
 
 

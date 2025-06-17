@@ -164,7 +164,7 @@ export const courses = [
     id: 1,
     xitemcode: "DB103",
     xdesc: "Data Structure & Algorithm",
-    ximage: "/images/home/courses/algorithm.png",
+    ximage: "/images/home/courses/algorithom.png",
     xstdprice: "10000",
     xmrp: 6500,
   },
