@@ -40,8 +40,8 @@ export default  function CourseDetailPage() {
           />
           <div className="absolute inset-0 bg-black bg-opacity-70" />
         </div>
-        <div className="absolute  text-[35px] md:text-[60px] lg:text-[60px] regularBrush text-center w-full -mt-48 md:-mt-72 lg:-mt-72 text-white z-50">
-        <p className="font-newAcademy lg:leading-5 md:leading-8 leading-5">{course?.xdesc}</p>
+        <div className="absolute  text-[35px] md:text-[60px] lg:text-[60px] regularBrush text-center w-full -mt-48 md:-mt-72 lg:-mt-72 text-white z-20">
+        <p className="font-newAcademy lg:leading-5 md:leading-8 leading-5 ">{course?.xdesc}</p>
       </div>
 
         <div className="w-11/12 mx-auto md:w-5/6 py-12 ">

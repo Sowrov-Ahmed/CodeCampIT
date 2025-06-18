@@ -96,7 +96,7 @@ const page = async () => {
             href={`#`}
             key={idx}
             className={
-              "w-11/12 xs:h-[200px] md:h-[250px] lg:h-[465px] uws:h-[650px] text-center xs:mt-1 mt-8 flex flex-col items-center lg:mb-0 md:mt-7 mb-12"
+              "w-11/12 xs:h-[200px] md:h-[250px] lg:h-[465px] uws:h-[650px] text-center xs:mt-1 mt-8 flex flex-col items-center lg:mb-0 md:mt-7 mb-16"
             }
           >
             <div

@@ -214,7 +214,7 @@ export const courseDetails = [
     time: " Saturday  & Friday, 9:00 PM - 10:00 PM",
     duration: "8-9 weeks",
     xcat: "Security",
-    ximage: "/images/home/courses/algorithm.png",
+    ximage: "/images/home/courses/algorithom.png",
     learningOutCome: {
       whatYouLearn: [
         {
