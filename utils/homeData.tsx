@@ -221,7 +221,7 @@ export const courseDetails = [
           details: (
             <>
               <span className="text-2xl  font-bold">
-                Basic Data Structures
+                 Data Structure
               </span>
             </>
           ),
@@ -250,7 +250,7 @@ export const courseDetails = [
           details: (
             <>
               <span className="text-2xl  font-bold">
-                Basic Algorithms
+               Algorithm
               </span>
             </>
           ),
