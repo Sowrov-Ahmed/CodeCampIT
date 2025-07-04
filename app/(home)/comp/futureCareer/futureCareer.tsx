@@ -8,7 +8,7 @@ const EnrollmentSchedule = () => {
      
       <div className="bg-violet-50 rounded-2xl w-full max-w-3xl p-6 shadow-md ">
         <h2 className="text-center text-xl md:text-2xl font-bold text-violet-700 mb-8 jaro">
-          Batch Schedule
+          {/* Batch Schedule */} Enroll Time
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
@@ -20,7 +20,7 @@ const EnrollmentSchedule = () => {
             </div>
             <div>
               <p className="text-lg font-semibold text-gray-800">Enrollment Start</p>
-              <p className="text-md  text-gray-800 font-semibold">June 15, 2025</p>
+              <p className="text-md  text-gray-800 font-semibold">July 01, 2025</p>
             </div>
           </div>
 
@@ -31,7 +31,7 @@ const EnrollmentSchedule = () => {
             </div>
             <div>
               <p className="text-lg font-semibold text-gray-800">Enrollment End</p>
-              <p className="text-md  text-gray-800 font-semibold">July 25, 2025</p>
+              <p className="text-md  text-gray-800 font-semibold">July 30, 2025</p>
             </div>
           </div>
         </div>

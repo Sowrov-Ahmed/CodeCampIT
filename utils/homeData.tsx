@@ -1,65 +1,4 @@
-// export const news_letter_data = [
-//   {
-//     id: 1,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 2,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 3,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 4,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 5,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 6,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 7,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 8,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 9,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 10,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 11,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-//   {
-//     id: 12,
-//     title: "Software Engineering  interviews",
-//     description: "What you should know in 2025.",
-//   },
-// ];
+
 export const news_letter_data = [
   {
     id: 1,
@@ -165,8 +104,8 @@ export const courses = [
     xitemcode: "DB103",
     xdesc: "Data Structure & Algorithm",
     ximage: "/images/home/courses/algorithom.png",
-    xstdprice: "10000",
-    xmrp: 6500,
+    xstdprice: "6500",
+    xmrp: 3500,
   },
 
   {
@@ -174,8 +113,8 @@ export const courses = [
     xitemcode: "DB106",
     xdesc: "Advanced Web Development",
     ximage: "/images/home/courses/web.jpg",
-    xstdprice: "10000",
-    xmrp: 6000,
+    xstdprice: "7000",
+    xmrp: 4000,
   },
   {
     id: 3,
@@ -199,8 +138,8 @@ export const courses = [
     xitemcode: "CSE104",
     xdesc: "C++",
     ximage: "/images/home/courses/c++.jpg",
-    xstdprice: "8000",
-    xmrp: 5000,
+    xstdprice: "5000",
+    xmrp: 3000,
   },
 ];
 
@@ -209,7 +148,7 @@ export const courseDetails = [
     xitemid: 1,
     xitemcode: "CSE105",
     xdesc: "Data Structure & Algorithm",
-    xprice: 6500,
+    xprice: 3500,
     xlongdesc: "",
     time: " Saturday  & Friday, 9:00 PM - 10:00 PM",
     duration: "8-9 weeks",
@@ -360,7 +299,7 @@ export const courseDetails = [
     xitemid: 2,
     xitemcode: "CSE105",
     xdesc: "Advanced Web development",
-    xprice: 6000,
+    xprice: 4000,
     time: " Saturday ,Monday & Wednesday, 9:00 PM - 10:00 PM",
     duration: "12-13 weeks",
     xlongdesc: "",
@@ -678,7 +617,7 @@ export const courseDetails = [
     xitemid: 5,
     xitemcode: "CSE104",
     xdesc: "C++",
-    xprice: 5000,
+    xprice: 3000,
     xlongdesc: "",
     time: " Saturday ,Monday & Wednesday, 9:00 PM - 10:00 PM",
     duration: "8-9 weeks",
